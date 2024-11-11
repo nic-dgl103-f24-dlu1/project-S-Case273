@@ -2,6 +2,8 @@
 
 ## Step 1
 
+### Project Summary
+
 The client I chose to rededisgn is [Big Brisket Barbecue](https://bigbrisketbarbecue.com/).
 
 The most important purpose of this website is to provide information to potential and returning customers, in a clear and concise manner.  
