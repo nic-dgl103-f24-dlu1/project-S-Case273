@@ -16,10 +16,10 @@ The current site falls short with the design and content, and has plenty of room
 ### Look and Feel
 
 The overall mood the site should convey is an early fall barbecue with your favourite people. So inviting, cozy, and homey.  
-The original site didn't appear to have a set color scheme, so I chose three colors akin to those used in the original sites logo.
-![The Big Brisket Barbecue Logo](images/brisketlogo.jpg "Original Logo")
+The original site didn't appear to have a set color scheme, so I chose three colors akin to those used in the original sites logo.  
+![The Big Brisket Barbecue Logo](images/brisketlogo.jpg "Original Logo").
 
-![My chosen color palette](images/color-pallete)
+![My chosen color palette](images/color-pallete.jpg).
 
 I've selected a handful of images to be used from the original site, as well as new images to be used.  
 The original website didn't seem to have a cohesieve brand font, in my redesign I will be using Archivo as my headline font and Mona Sans as the body copy.
