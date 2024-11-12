@@ -69,3 +69,62 @@ The original website didn't seem to have a cohesieve brand font, in my redesign 
 > - Contact info
 > - Business hours
 > - copyright information
+
+#### Menu Page
+
+> **Header**
+>
+> - Same as Home
+>
+> **Hero**
+>
+> - Heading "Experience the best barbecue brisket in the Comox Valley"
+> - Image:  
+>   ![A fire fed smoker](images/fire-smoker.jpg)
+>
+> **Menu Section**
+>
+> - Handhelds
+> - Brisket Slices
+> - Poutine
+> - Sides
+> - Beverages
+> - Frozens
+>
+> **Footer**
+>
+> - Same as Home
+
+#### Services Page
+
+> **Header**
+>
+> - Same as Home
+>
+> **Hero**
+>
+> - Header "More than _meats_ the eye!"
+> - Image:  
+>   ![Scenic view of Comox from unsplash](images/frugal-flyer-hWVHcMQ7dGk-unsplash.jpg)
+>
+> **Smoker Rentals**
+>
+> - Heading "Rent our smoker"
+> - Image:  
+>   ![Hot fire and coals](images/james-hardman-iSBFFR7N3Mo-unsplash.jpg)
+> - Paragraph on how to rent the smoker and the best ocaisions to do so
+>
+> **Custom Orders**
+>
+> - Heading "You want the best at your next event?"
+> - Image:
+>   ![A close up image of juicy brisket](images/israel-albornoz-X_yiZP3NTkE-unsplash.jpg)
+> - Paragraph on how to and when to submit custom orders
+>
+> **Call-to-action**
+>
+> - Same as Home
+>
+> **Footer**
+>
+> - Same as Home
