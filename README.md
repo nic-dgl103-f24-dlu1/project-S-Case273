@@ -24,3 +24,48 @@ I've selected a handful of images to be used from the original site, as well as 
 The original website didn't seem to have a cohesieve brand font, in my redesign I will be using Archivo as my headline font and Mona Sans as the body copy.
 
 ### Content Lists
+
+#### Home Page
+
+> **Header**
+>
+> - Logo
+> - Main Navigation
+> - Home Page
+> - Menu Page
+> - Services Page
+
+> **Hero**
+>
+> - Heading "Big Brisket, Bigger Flavor - Smoked to perfection and served with a smile"
+> - Image
+>   ![A loaded smoker full of brisket](images/smoker.jpg).
+> - Link to Menu page
+
+> **About**
+>
+> - Heading "Who we are"
+> - Paragraph describing who Big Brisket is
+> - Image of client
+
+> **Benefits**
+>
+> - Heading "Why choose us"
+> - List of Reasons:
+>   - Many years of quality dining experience
+>   - Prioritize local, high quality fresh ingredients
+>   - Slow smoking over real wood for our signature flavor and tenderness.
+> - Link to Services page
+
+> **Call-to-action**
+>
+> - Heading "Indulge the way you want"
+> - Link to Services page and Menu page
+> - Contact Us form
+
+> **Footer**
+>
+> - Social media links
+> - Contact info
+> - Business hours
+> - copyright information
