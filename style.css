@@ -1,0 +1,131 @@
+/* ===============
+   GLOBAL SETTINGS
+   =============== */
+
+   * {
+    box-sizing: border-box;
+   }
+
+   html{
+    font-size: 62.5%;
+   }
+   
+   ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+   }
+
+   /* ===============
+   TYPOGRAPHY
+   =============== */
+
+   body {
+    height: 100vh;
+    font-size: 1.4rem;
+    margin: 0;
+    font-family: "Mona Sans", sans-serif;
+    background-color: #dff8eb;
+    line-height: 1.5;
+   }
+
+   h1, h2, h3 {
+    font-family: "Archivo", sans-serif;
+    line-height: 1.3;
+   }
+
+   h1 {
+    font-size: 3.6rem;
+   }
+
+   h2 {
+    font-size: 2.8rem;
+   }
+
+   a {
+    text-decoration: none;
+    color: #dff8eb;
+   }
+
+
+ /* ===============
+   BUTTONS
+   =============== */
+
+   .btn {
+    text-transform: capitalize;
+    background-color: #262730;
+    color: #dff8eb;
+    border: 2px solid #f4743b;
+    border-radius: 20px;
+    padding: 1rem;
+    cursor: pointer;
+    display: inline-block;
+   }
+
+   .btn:hover {
+    background-color: #f4743b;
+   } 
+
+    /* ===============
+    HEADER
+   =============== */
+
+   header {
+    display: flex;
+    background-color: #262730;
+    color: #dff8eb;
+    justify-content: space-between;
+    align-items: center;
+   }
+
+   .logo {
+    border-radius: 100px;
+    margin-left: 5rem;
+    width: 100px;
+   }
+
+   ul {
+    display: flex;
+    gap: 2rem;
+   }
+
+   li {
+    padding: 1rem;
+    font-size: 1.6rem;
+   }
+
+   .dropdown {
+    display: none;
+    position: absolute;
+    right: 2rem;
+    top: 60px;
+    list-style-type: none;
+    background-color: rgba(38, 39, 48, 0.5);
+    width: 300px;
+    backdrop-filter: blur(10px);
+   }
+
+   .dropdown li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   }
+
+
+   /*-------- MEDIUM DEVICES (vertical ipads, 768px and up) ---------*/
+@media only screen and (min-width: 768px) {
+    body {
+      font-size: 1.6rem;
+    }
+
+
+
+}
+
+
+/*-------- LARGE DEVICES (desktops, 1200px and up) ---------*/
+@media only screen and (min-width: 1200px) {
+
+}
