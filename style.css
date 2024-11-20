@@ -255,6 +255,31 @@
     padding: 1rem;
    }
 
+   input[type="reset"] {
+    color: #0e7a0d;
+    padding: 12px 20px;
+    border: 1px solid #0e7a0d;
+    border-radius: 4px;
+    cursor: pointer;
+   }
+
+   input[type="reset"]:hover {
+    background-color: #d1efe3;
+   }
+
+   input[type="submit"] {
+    background-color: #0e7a0d;
+    color: white;
+    padding: 12px 20px;
+    border: 1px solid #0e7a0d;
+    border-radius: 4px;
+    cursor: pointer;
+   }
+  
+   input[type="submit"]:hover {
+    background-color: #00ab66;
+   }
+
    .wrapper-form {
     width: 100%;
     max-width: 400px;
