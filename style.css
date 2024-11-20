@@ -30,7 +30,7 @@
    body {
     font-size: 1.4rem;
     font-family: "Mona Sans", sans-serif;
-    background-color: #fff;
+    background-color: #f4733bc4;
     line-height: 1.5;
     width: 100%;
     margin: 0;
@@ -216,7 +216,7 @@
     margin-top: 1rem;
    }
 
-   .cards h3, p {
+   .cards h3, .cards p {
     padding: 0.25rem;
     background-color: #dff8eb94;
     border-radius: 10px;
@@ -264,6 +264,37 @@
     text-align: center;
    }
 
+    /* ===============
+    FOOTER
+   =============== */
+   
+   .phone, .fa-brands  {
+    color: #f4743b;
+    font-size: 1.8rem;
+   }
+
+   .footer {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 1rem;
+    background-color: #262730;
+    color: #dff8eb;
+   }
+
+   .copyright {
+    margin-top: 2rem;
+    padding: 1rem;
+    text-align: center;
+    background-color: #dff8eb;
+   }
+
+   .copyright p {
+    border-top: 1px solid rgba(75, 43, 2, 0.596);
+    margin: 0 auto;
+   }
+
+
 
 
 
@@ -278,9 +309,16 @@
     top: 60px;
     list-style-type: none;
     background-color: rgba(38, 39, 48, 0.5);
-    width: 300px;
+    width: 150px;
+    height: 150px;
+    aspect-ratio: 1;
     backdrop-filter: blur(10px);
     display: none;
+    margin: 0 auto;
+   }
+
+   .dropdown ul {
+    padding: 2.5rem;
    }
 
    .dropdown li {
@@ -288,6 +326,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 0.25rem;
    }
 
    .dropdown[data-visible="true"] {
