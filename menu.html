@@ -3,22 +3,99 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link
-    rel="stylesheet"
+    <link rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
     integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
     crossorigin="anonymous"
-    referrerpolicy="no-referrer"
-  />
+    referrerpolicy="no-referrer"/>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link
     href="https://fonts.googleapis.com/css2?family=Archivo:ital,wdth,wght@0,112.5,800;1,112.5,800&family=Mona+Sans:ital,wdth@0,112.5;1,112.5&display=swap"
-    rel="stylesheet"
-  />
+    rel="stylesheet"/>
+    <link rel="stylesheet" href="style.css" />
     <title>Menu</title>
 </head>
 <body>
+    <header>
+        <a href="index.html">
+          <img
+            class="logo"
+            src="images/brisketlogo.jpg"
+            alt="Big Brisket barbecue's logo"
+          />
+        </a>
+        <ul class="nav-bar">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="services.html">Services</a></li>
+        </ul>
+        <div class="toggle">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+    
+        <div class="dropdown" data-visible="false">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="services.html">Services</a></li>
+          </ul>
+        </div>
+      </header>
+      <main>
+      </main>
+      <footer>
+        <!--FIXME: icon images are whack-->
+        <div class="footer">
+          <div>
+            <h3>Contact us</h3>
+            <a href="https://www.instagram.com/bigbrisketbarbecue/" class="fa-brands fa-instagram"></a>
+            <a href="https://www.x.com/bigBbarbecue" class="fa-brands fa-x-twitter"></a>
+            <p>801 Dingwall Road, Courtenay, British Columbia V9N 3S4, Canada</p>
+            <a class="phone" href="tel:1-250-714-5999">250-714-5999</a>
+          </div>
+          <div>
+            <h3>Hours</h3>
+            <ul>
+              <li>Monday: Closed</li>
+              <li>Tuesday: Closed</li>
+              <li>Wednesday: Closed</li>
+              <li>Thursday: Closed</li>
+              <li>Firday: Closed</li>
+              <li><strong>Saturday: 11am - 4pm</strong></li>
+              <li>Sunday: Closed</li>
+            </ul>
+          </div>
+          <div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2580.4556171089494!2d-124.99125099999999!3d49.702223599999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548813ee4db7cc37%3A0xddce0efbba6f9e5!2s801%20Dingwall%20Rd%2C%20Courtenay%2C%20BC%20V9N%203S4!5e0!3m2!1sen!2sca!4v1732391414441!5m2!1sen!2sca" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+        <div class="copyright">
+          <p>Copyright © 2024 Big Brisket Barbecue - All Rights Reserved.</p>
+          <p>
+            This is a fictional website that was designed and coded as an
+            educational exercise. It is not intended to be seen outside of the
+            class environment. None of the content and images were approved by the
+            business owner.
+          </p>
+        </div>
+      </footer>
+      <script>
+        document.addEventListener("DOMContentLoaded", () => {
+          const dropdownMenu = document.querySelector(".dropdown");
+          const toggleBtn = document.querySelector(".toggle");
+  
+          toggleBtn.addEventListener("click", () => {
+            const visibility = dropdownMenu.getAttribute("data-visible");
+  
+            if (visibility === "false") {
+              dropdownMenu.setAttribute("data-visible", "true");
+            } else {
+              dropdownMenu.setAttribute("data-visible", "false");
+            }
+          });
+        });
+      </script>
     
 </body>
 </html>
