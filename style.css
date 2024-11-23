@@ -93,6 +93,10 @@ header {
   width: 15%;
 }
 
+.nav-bar a:hover {
+  color: #f4743b;
+}
+
 .toggle {
   color: #dff8eb;
   border: none;
@@ -106,6 +110,8 @@ header {
 .nav-bar {
   display: none;
 }
+
+/*=============HOME PAGE===========*/
 
 /* ===============
     HERO
@@ -305,17 +311,23 @@ input[type="submit"]:hover {
     FOOTER
    =============== */
 
-.phone,
-.fa-brands {
+.phone {
   color: #f4743b;
   font-size: 1.8rem;
 }
 
+.fa-brands {
+  padding: 0.5rem;
+  color: #f4743b;
+  font-size: 2.5rem;
+}
+
 .footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   margin: 0 auto;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  padding: 1rem;
+  padding: 1.5rem;
   background-color: #262730;
   color: #dff8eb;
 }
@@ -365,6 +377,29 @@ input[type="submit"]:hover {
 .dropdown[data-visible="true"] {
   display: block;
 }
+
+
+/*========================SERVICES PAGE=======================*/
+ 
+  /*===hero===*/
+
+.services-hero {
+  background: url(images/frugal-flyer-hWVHcMQ7dGk-unsplash.jpg) center no-repeat;
+  text-align: center;
+  height: 300px;
+}
+
+.services-hero h2 {
+  background-color: #dff8ebaf;
+  margin: 0 auto;
+  padding: 0.5rem;
+  border-radius: 8px;
+  width: fit-content;
+}
+
+  /*===retal===*/
+
+
 
 /*-------- MEDIUM DEVICES (vertical ipads, 768px and up) ---------*/
 @media only screen and (min-width: 768px) {
@@ -497,5 +532,13 @@ input[type="submit"]:hover {
 
   .footer li {
     padding: 0;
+  }
+  .footer {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 1rem;
+    background-color: #262730;
+    color: #dff8eb;
   }
 }
