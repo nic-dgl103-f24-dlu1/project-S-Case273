@@ -378,10 +378,9 @@ input[type="submit"]:hover {
   display: block;
 }
 
-
 /*========================SERVICES PAGE=======================*/
- 
-  /*===hero===*/
+
+/*===hero===*/
 
 .services-hero {
   background: url(images/frugal-flyer-hWVHcMQ7dGk-unsplash.jpg) center no-repeat;
@@ -397,116 +396,115 @@ input[type="submit"]:hover {
   width: fit-content;
 }
 
-  /*===retal===*/
+/*===retal===*/
 
-  .rental {
-    background-color: #dff8eb;
-  }
+.rental {
+  background-color: #dff8eb;
+}
 
-  .rental-cards {
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+.rental-cards {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
     rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 1.5rem;
-    border-radius: 20px 0;
-  }
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem;
+  border-radius: 20px 0;
+}
 
-  /*===orders===*/
+/*===orders===*/
 
-  .orders {
-    background-color: #dff8eb;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
+.orders {
+  background-color: #dff8eb;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
-  .orders figure img {
-    width: 100%;
-    max-width: 350px;
-  }
+.orders figure img {
+  width: 100%;
+  max-width: 350px;
+}
 
-  /*====================MENU PAGE==================*/
+/*====================MENU PAGE==================*/
 
-  /*====hero====*/
+/*====hero====*/
 
-  .menu-hero {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    background-color: #dff8eb;
-  }
+.menu-hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #dff8eb;
+}
 
-  .menu-img {
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-evenly;
-  }
+.menu-img {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+}
 
-  .menu-hero img{
-    border-radius: 8px;
-    max-width: 33%;
-  }
+.menu-hero img {
+  border-radius: 8px;
+  max-width: 33%;
+}
 
-  .menu-hero p {
-    padding: 1.5rem;
-    border-radius: 3px;
-    box-shadow: rgba(94, 55, 29, 0.25) 0px 30px 60px -12px inset,
-      rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
-  }
+.menu-hero p {
+  padding: 1.5rem;
+  border-radius: 3px;
+  box-shadow: rgba(94, 55, 29, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
 
-  /*====menu====*/
+/*====menu====*/
 
-  .menu {
-    display: grid;
-    gap: 0.75rem;
-    background-color:#262730;
-  }
-  .menu h2{
-    background-color: #dff8eb;
-    padding: 1rem;
-    margin: 0;
-    border-radius: 2px;
-    text-align: center;
-  }
-  .menu-box {
-    background-color: #dff8eb;
-    border-radius: 2.5px;
-    padding:0 1rem .75rem;
-  }
-  .menu-box h3{
-    font-size: 1.8rem;
-    text-transform: capitalize;
-  }
-  .menu-item{
-    background-color: #dff8eba7;
-    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
-    padding-left: 0.5rem;
-    border-radius: .5rem;
-  }
-  .menu-item h4{
-    font-size: 1.6rem;
-    text-transform: capitalize;
-  }
-  .sub-text {
-    font-weight:200;
-    color: #111;
-    background-color: #eefff6;
-  }
-
-
+.menu {
+  display: grid;
+  gap: 0.75rem;
+  background-color: #262730;
+}
+.menu h2 {
+  background-color: #dff8eb;
+  padding: 1rem;
+  margin: 0;
+  border-radius: 2px;
+  text-align: center;
+}
+.menu-box {
+  background-color: #dff8eb;
+  border-radius: 2.5px;
+  padding: 0 1rem 0.75rem;
+}
+.menu-box h3 {
+  font-size: 1.8rem;
+  text-transform: capitalize;
+}
+.menu-item {
+  background-color: #dff8eba7;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  padding-left: 0.5rem;
+  border-radius: 0.5rem;
+}
+.menu-item h4 {
+  font-size: 1.6rem;
+  text-transform: capitalize;
+}
+.sub-text {
+  font-weight: 200;
+  color: #111;
+  background-color: #eefff6;
+}
 
 /*-------- MEDIUM DEVICES (vertical ipads, 768px and up) ---------*/
 @media only screen and (min-width: 768px) {
   body {
     font-size: 1.6rem;
   }
- 
+
   .logo {
     width: 10%;
   }
@@ -651,70 +649,68 @@ input[type="submit"]:hover {
   /*=====
     SERVICES
     =====*/
-    .rental,
-    .orders,
-    .call-to-action {
-      max-width: 1150px;
-      margin: 1rem auto;
-    }
+  .rental,
+  .orders,
+  .call-to-action {
+    max-width: 1150px;
+    margin: 1rem auto;
+  }
 
-    .rent-wrap {
-      margin: 0 auto;
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      justify-content: space-evenly;
-      gap: 2rem;
-      max-width: 1100px;
-    }
+  .rent-wrap {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-evenly;
+    gap: 2rem;
+    max-width: 1100px;
+  }
 
-    .order-wrap {
-      gap: 2rem;
-      margin: 0 auto;
-      max-width: 1100px;
-      display: grid;
-      grid-template-columns: 1fr 2fr;
-      justify-content: space-between;
-      align-items: center;
-    }
-    .order-wrap figure {
-      margin: 0;
-      text-align: center;
-    }
+  .order-wrap {
+    gap: 2rem;
+    margin: 0 auto;
+    max-width: 1100px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .order-wrap figure {
+    margin: 0;
+    text-align: center;
+  }
 
   /*=====
     MENU
     =====*/
-   
-    .menu-hero {
-      margin: 1rem auto;
-      max-width: 1100px;
-    }
 
-    .menu {
-      margin: 0 auto;
-      max-width: 1100px;
-    }
+  .menu-hero {
+    margin: 1rem auto;
+    max-width: 1100px;
+  }
 
-    .menu h3 {
-      font-size: 2.4rem;
-    }
+  .menu {
+    margin: 0 auto;
+    max-width: 1100px;
+  }
 
-    .item-wrapper {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      justify-content: space-evenly;
-      gap: 0.75rem;
-    }
+  .menu h3 {
+    font-size: 2.4rem;
+  }
 
-    .menu-item {
-      display: flex;
-      flex-direction: column;
-    }
+  .item-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-evenly;
+    gap: 0.75rem;
+  }
 
-    .menu-item h4 {
-      font-size: 1.8rem ;
-      align-self: center;
-    }
+  .menu-item {
+    display: flex;
+    flex-direction: column;
+  }
 
-
+  .menu-item h4 {
+    font-size: 1.8rem;
+    align-self: center;
+  }
 }
