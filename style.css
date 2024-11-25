@@ -477,7 +477,7 @@ input[type="submit"]:hover {
   .menu-box {
     background-color: #dff8eb;
     border-radius: 2.5px;
-    padding:0 1rem;
+    padding:0 1rem .75rem;
   }
   .menu-box h3{
     font-size: 1.8rem;
@@ -487,6 +487,7 @@ input[type="submit"]:hover {
     background-color: #dff8eba7;
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
     padding-left: 0.5rem;
+    border-radius: .5rem;
   }
   .menu-item h4{
     font-size: 1.6rem;
@@ -551,6 +552,13 @@ input[type="submit"]:hover {
     font-size: 1.6rem;
   }
 
+  .hero,
+  .about,
+  .benefits {
+    max-width: 1150px;
+    margin: 1rem auto;
+  }
+
   /*============
      HERO
     =========*/
@@ -604,7 +612,7 @@ input[type="submit"]:hover {
   .card-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    max-width: 1150px;
+    max-width: 1100px;
     margin: 0 auto;
   }
 
@@ -643,6 +651,12 @@ input[type="submit"]:hover {
   /*=====
     SERVICES
     =====*/
+    .rental,
+    .orders,
+    .call-to-action {
+      max-width: 1150px;
+      margin: 1rem auto;
+    }
 
     .rent-wrap {
       margin: 0 auto;
@@ -670,7 +684,37 @@ input[type="submit"]:hover {
   /*=====
     MENU
     =====*/
-    .menu-hero img{
-      max-width: 400px;
+   
+    .menu-hero {
+      margin: 1rem auto;
+      max-width: 1100px;
     }
+
+    .menu {
+      margin: 0 auto;
+      max-width: 1100px;
+    }
+
+    .menu h3 {
+      font-size: 2.4rem;
+    }
+
+    .item-wrapper {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      justify-content: space-evenly;
+      gap: 0.75rem;
+    }
+
+    .menu-item {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .menu-item h4 {
+      font-size: 1.8rem ;
+      align-self: center;
+    }
+
+
 }
