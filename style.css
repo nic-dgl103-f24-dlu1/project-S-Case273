@@ -442,8 +442,15 @@ input[type="submit"]:hover {
     background-color: #dff8eb;
   }
 
+  .menu-img {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
   .menu-hero img{
     border-radius: 8px;
+    max-width: 33%;
   }
 
   .menu-hero p {
@@ -663,5 +670,7 @@ input[type="submit"]:hover {
   /*=====
     MENU
     =====*/
-    
+    .menu-hero img{
+      max-width: 400px;
+    }
 }
