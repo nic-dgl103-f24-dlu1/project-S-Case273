@@ -429,14 +429,17 @@ input[type="submit"]:hover {
     max-width: 350px;
   }
 
+  /*====================MENU PAGE==================*/
+
+  
+
 
 /*-------- MEDIUM DEVICES (vertical ipads, 768px and up) ---------*/
 @media only screen and (min-width: 768px) {
   body {
     font-size: 1.6rem;
   }
-  header {
-  }
+ 
   .logo {
     width: 10%;
   }
