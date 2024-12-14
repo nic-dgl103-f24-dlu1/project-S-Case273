@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo:ital,wdth,wght@0,112.5,800;1,112.5,800&family=Mona+Sans:ital,wdth@0,112.5;1,112.5&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Project</title>
+  </head>
+  <body>
+    <header>
+      <a href="index.html">
+        <!--Original logo-->
+        <img
+          class="logo"
+          src="images/brisketlogo.jpg"
+          alt="Big Brisket barbecue's logo"
+        />
+      </a>
+      <ul class="nav-bar">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="services.html">Services</a></li>
+      </ul>
+      <div class="toggle">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+
+      <div class="dropdown" data-visible="false">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="services.html">Services</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <main>
+      <figure class="advert">
+        <!--Original image-->
+        <img
+          src="images/lg-logo.jpg"
+          alt="a banner logo"/>
+        <figcaption>
+          Experience the best Barbecue Brisket in the Comox Valley.
+          <b>SATURDAYS 11-4</b>
+        </figcaption>
+      </figure>
+      <section class="hero">
+        <h1>
+          Big brisket, bigger flavor- Smoked to perfection and served with a
+          smile!
+        </h1>
+        <figure>
+           <!--Original image-->
+          <img
+            src="images/smoker.jpg"
+            alt="a smoker full of briskets ready to be smoked"
+          />
+          <figcaption>
+            Satisfy your hunger with our mouthwatering smoked brisket
+          </figcaption>
+        </figure>
+        <a href="menu.html" class="menu-btn btn">Check out our menu</a>
+      </section>
+
+      <section class="about">
+        <h2>Who we are</h2>
+        <p>
+          Big Brisket is owned by Jordan Sorrenti, a passionate foodie with
+          extensive industry experience and the skills to back up his claim of
+          serving the best barbecue brisket in the Comox Valley. Over the years,
+          Jordan has owned and operated a variety of restaurants across Canada,
+          including a brewery, café, and fine dining establishments. Now,
+          instead of retiring to the beautiful Comox Valley, he's doing what he
+          loves most: serving up exceptional food to his community.
+        </p>
+        <figure>
+           <!--Original image-->
+          <img src="images/client.jpg" alt="Jordan Sorrenti"  />
+        </figure>
+      </section>
+
+      <section class="benefits">
+        <h2>Why choose us?</h2>
+        <article class="card-container">
+           <!--Free images from unslpash-->
+          <div class="cards dining">
+            <h3>Years of quality dining experience</h3>
+            <p>
+              From Ontario to Calgary to Gabriola Island, gaining experience
+              along the way in multiple areas including barbecue, and catering.
+              To come to settle, and deliver the results of that combined
+              experience to the stunning Comox Valley.
+            </p>
+          </div>
+          <div class="cards quality">
+            <h3>High-quality, fresh, and local ingredients</h3>
+            <p>
+              We believe that great barbecue begins with great ingredients.
+              That's why we prioritize not only the best quality meats, but also
+              locally sourcing as much of our fresh, natural ingredients as we
+              can to include in all our rubs, sauces and sides!
+            </p>
+          </div>
+          <div class="cards flavour">
+            <h3>Our signature flavour</h3>
+            <p>
+              At Big Brisket we believe in the power of slow smoking over a real
+              wood fire. Providing that beautiful signature flavour and perfect
+              tenderness you can only get at big Brisket.
+            </p>
+          </div>
+        </article>
+        <a href="services.html" class="service-btn btn">What else we offer</a>
+      </section>
+
+      <section class="call-to-action">
+        <h2>Indulge the way you want</h2>
+        <a href="services.html" class="btn">Learn more</a>
+        <div class="wrapper-form">
+          <!-- FIXME: submit method currently innactive-->
+          <form class="form" method="post" action="#">
+            <label for="name">Full Name</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="ex. John Smith"
+            />
+
+            <label for="email">Email<span>* (required)</span></label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="ex. johnSmith@email.com"
+              required
+            />
+
+            <label for="message">Message</label>
+            <textarea
+              id="message"
+              name="message"
+              placeholder="Tell us how we can serve you"
+            ></textarea>
+
+            <div class="button-wrapper">
+              <input type="reset" value="Reset" />
+              <input type="submit" value="Submit" />
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer">
+        <div>
+          <h3>Contact us</h3>
+          <a
+            href="https://www.instagram.com/bigbrisketbarbecue/"
+            class="fa-brands fa-instagram"
+          ></a>
+          <a
+            href="https://www.x.com/bigBbarbecue"
+            class="fa-brands fa-x-twitter"
+          ></a>
+          <p>801 Dingwall Road, Courtenay, British Columbia V9N 3S4, Canada</p>
+          <a class="phone" href="tel:1-250-714-5999">250-714-5999</a>
+        </div>
+        <div>
+          <h3>Hours</h3>
+          <ul>
+            <li>Monday: Closed</li>
+            <li>Tuesday: Closed</li>
+            <li>Wednesday: Closed</li>
+            <li>Thursday: Closed</li>
+            <li>Firday: Closed</li>
+            <li><strong>Saturday: 11am - 4pm</strong></li>
+            <li>Sunday: Closed</li>
+          </ul>
+        </div>
+        <div>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2580.4556171089494!2d-124.99125099999999!3d49.702223599999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548813ee4db7cc37%3A0xddce0efbba6f9e5!2s801%20Dingwall%20Rd%2C%20Courtenay%2C%20BC%20V9N%203S4!5e0!3m2!1sen!2sca!4v1732391414441!5m2!1sen!2sca"
+            width="400"
+            height="300"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>Copyright © 2024 Big Brisket Barbecue - All Rights Reserved.</p>
+        <p>
+          This is a fictional website that was designed and coded as an
+          educational exercise. It is not intended to be seen outside of the
+          class environment. None of the content and images were approved by the
+          business owner.
+        </p>
+      </div>
+    </footer>
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const dropdownMenu = document.querySelector(".dropdown");
+        const toggleBtn = document.querySelector(".toggle");
+
+        toggleBtn.addEventListener("click", () => {
+          const visibility = dropdownMenu.getAttribute("data-visible");
+
+          if (visibility === "false") {
+            dropdownMenu.setAttribute("data-visible", "true");
+          } else {
+            dropdownMenu.setAttribute("data-visible", "false");
+          }
+        });
+      });
+    </script>
+  </body>
+</html>

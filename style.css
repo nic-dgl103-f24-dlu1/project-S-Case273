@@ -1,0 +1,722 @@
+/* ===============
+   GLOBAL SETTINGS
+   =============== */
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+section {
+  margin: 1rem;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 3rem 1.5rem;
+  border-radius: 5px;
+}
+
+/* ===============
+   TYPOGRAPHY
+   =============== */
+
+body {
+  font-size: 1.4rem;
+  font-family: "Mona Sans", sans-serif;
+  background-color: #f4733bc4;
+  line-height: 1.5;
+  width: 100%;
+  margin: 0;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Archivo", sans-serif;
+  line-height: 1.3;
+}
+
+h1 {
+  box-shadow: rgba(146, 83, 0, 0.233) 0px 10px 10px -10px;
+}
+
+h2 {
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  box-shadow: rgba(146, 83, 0, 0.233) 0px 10px 10px -10px;
+}
+
+a {
+  text-decoration: none;
+  color: #dff8eb;
+}
+
+/* ===============
+   BUTTONS
+   =============== */
+
+.btn {
+  text-transform: capitalize;
+  background-color: #262730;
+  color: #dff8eb;
+  border: 2px solid #f4743b;
+  border-radius: 20px;
+  padding: 1rem;
+  cursor: pointer;
+  display: inline-block;
+  align-self: center;
+  justify-self: center;
+}
+
+.btn:hover {
+  background-color: #f4743b;
+}
+
+/* ===============
+    HEADER
+   =============== */
+header {
+  display: block;
+  background-color: #262730;
+}
+
+.logo {
+  border-radius: 100px;
+  margin: 1rem 0 0 4rem;
+  width: 15%;
+}
+
+.nav-bar a:hover {
+  color: #f4743b;
+}
+
+.toggle {
+  color: #dff8eb;
+  border: none;
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  cursor: pointer;
+  font-size: 2rem;
+}
+
+.nav-bar {
+  display: none;
+}
+
+/*=============HOME PAGE===========*/
+
+/* ===============
+    HERO
+   =============== */
+
+.advert {
+  width: 100%;
+  margin: 0 auto;
+  padding: 1rem;
+  text-align: center;
+}
+
+.advert img {
+  max-width: 90%;
+}
+
+.advert figcaption {
+  border-radius: 3px;
+  box-shadow: rgba(94, 55, 29, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #dff8eb;
+}
+
+.hero h1 {
+  align-self: center;
+  font-size: 2.8rem;
+}
+
+.hero figure {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.hero figure img {
+  border-radius: 8px;
+  max-width: 75%;
+}
+
+/* ===============
+    ABOUT
+   =============== */
+
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #dff8eb;
+  text-align: center;
+}
+
+.about figure {
+  width: 100%;
+}
+
+.about figure img {
+  border-radius: 100px;
+  width: 40%;
+  max-width: 200px;
+}
+
+/* ===============
+    BENEFITS
+   =============== */
+
+.benefits {
+  display: flex;
+  flex-direction: column;
+  background-color: #dff8eb;
+  align-items: center;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-repeat: no-repeat;
+  aspect-ratio: 1;
+  background-size: 100% auto;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 20px;
+  padding: 1rem 2rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  text-align: center;
+}
+
+.dining {
+  background-image: url(images/quality-dining.jpg);
+}
+
+.quality {
+  background-image: url(images/fresh-ing.jpg);
+  background-position: center;
+}
+
+.flavour {
+  background-image: url(images/fire-grill.jpg);
+}
+
+.service-btn {
+  margin-top: 1rem;
+}
+
+.cards h3,
+.cards p {
+  padding: 0.25rem;
+  background-color: #dff8eb94;
+  border-radius: 10px;
+}
+
+.cards p {
+  font-weight: 600;
+}
+
+.quality p {
+  background-color: #dff8eba7;
+}
+
+.cards h3 {
+  text-transform: uppercase;
+}
+
+/* ===============
+    CALL TO ACTION
+   =============== */
+
+.call-to-action {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  background-color: #dff8eb;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  border: 3px dashed #f4743b;
+  padding: 1rem;
+}
+
+.button-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+input[type="reset"] {
+  color: #0e7a0d;
+  padding: 12px 20px;
+  border: 1px solid #0e7a0d;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="reset"]:hover {
+  background-color: #d1efe3;
+}
+
+input[type="submit"] {
+  background-color: #0e7a0d;
+  color: white;
+  padding: 12px 20px;
+  border: 1px solid #0e7a0d;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #00ab66;
+}
+
+.wrapper-form {
+  width: 100%;
+  max-width: 400px;
+}
+
+.call-to-action h2 {
+  text-align: center;
+}
+
+/* ===============
+    FOOTER
+   =============== */
+
+.phone {
+  color: #f4743b;
+  font-size: 1.8rem;
+}
+
+.fa-brands {
+  padding: 0.5rem;
+  color: #f4743b;
+  font-size: 2.5rem;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 1.5rem;
+  background-color: #262730;
+  color: #dff8eb;
+}
+
+.copyright {
+  margin-top: 2rem;
+  padding: 1rem;
+  text-align: center;
+  background-color: #dff8eb;
+}
+
+.copyright p {
+  border-top: 1px solid rgba(75, 43, 2, 0.596);
+  margin: 0 auto;
+}
+
+/* ===============
+    RESPONSIVE NAV
+   =============== */
+
+.dropdown {
+  position: absolute;
+  right: 2rem;
+  top: 60px;
+  list-style-type: none;
+  background-color: rgba(38, 39, 48, 0.5);
+  width: 150px;
+  height: 150px;
+  aspect-ratio: 1;
+  backdrop-filter: blur(10px);
+  display: none;
+  margin: 0 auto;
+}
+
+.dropdown ul {
+  padding: 2.5rem;
+}
+
+.dropdown li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0.25rem;
+}
+
+.dropdown[data-visible="true"] {
+  display: block;
+}
+
+/*========================SERVICES PAGE=======================*/
+
+/*===hero===*/
+
+.services-hero {
+  background: url(images/frugal-flyer-hWVHcMQ7dGk-unsplash.jpg) center no-repeat;
+  text-align: center;
+  height: 300px;
+}
+
+.services-hero h2 {
+  background-color: #dff8ebaf;
+  margin: 0 auto;
+  padding: 0.5rem;
+  border-radius: 8px;
+  width: fit-content;
+}
+
+/*===retal===*/
+
+.rental {
+  background-color: #dff8eb;
+}
+
+.rental-cards {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem;
+  border-radius: 20px 0;
+}
+
+/*===orders===*/
+
+.orders {
+  background-color: #dff8eb;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.orders figure img {
+  width: 75%;
+  max-width: 350px;
+}
+
+/*====================MENU PAGE==================*/
+
+/*====hero====*/
+
+.menu-hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #dff8eb;
+}
+
+.menu-img {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.menu-hero img {
+  border-radius: 8px;
+  max-width: 33%;
+}
+
+.menu-hero p {
+  padding: 1.5rem;
+  border-radius: 3px;
+  box-shadow: rgba(94, 55, 29, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+/*====menu====*/
+
+.menu {
+  display: grid;
+  gap: 0.75rem;
+  background-color: #262730;
+}
+.menu h2 {
+  background-color: #dff8eb;
+  padding: 1rem;
+  margin: 0;
+  border-radius: 2px;
+  text-align: center;
+}
+.menu-box {
+  background-color: #dff8eb;
+  border-radius: 2.5px;
+  padding: 0 1rem 0.75rem;
+}
+.menu-box h3 {
+  font-size: 1.8rem;
+  text-transform: capitalize;
+}
+.menu-item {
+  background-color: #dff8eba7;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  padding-left: 0.5rem;
+  border-radius: 0.5rem;
+}
+.menu-item h4 {
+  font-size: 1.6rem;
+  text-transform: capitalize;
+}
+.sub-text {
+  font-weight: 200;
+  color: #111;
+  background-color: #eefff6;
+}
+
+/*-------- MEDIUM DEVICES (vertical ipads, 768px and up) ---------*/
+@media only screen and (min-width: 768px) {
+  body {
+    font-size: 1.6rem;
+  }
+
+  .logo {
+    width: 10%;
+  }
+  .dropdown[data-visible="true"] {
+    display: block;
+  }
+}
+
+/*-------- LARGE DEVICES (desktops, 1200px and up) ---------*/
+@media only screen and (min-width: 1200px) {
+  /*=========
+    HEADER
+    =========*/
+
+  .toggle {
+    display: none;
+  }
+  .dropdown {
+    display: none;
+  }
+
+  header {
+    display: flex;
+    color: #dff8eb;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+  }
+
+  .logo {
+    border-radius: 100px;
+    margin: 1rem 0 0 4rem;
+    width: 100px;
+  }
+
+  .nav-bar {
+    display: flex;
+    gap: 2rem;
+  }
+
+  li {
+    padding: 1.5rem;
+    font-size: 1.6rem;
+  }
+
+  .hero,
+  .about,
+  .benefits {
+    max-width: 1150px;
+    margin: 1rem auto;
+  }
+
+  /*============
+     HERO
+    =========*/
+
+  .advert {
+    max-width: 1200px;
+    width: 100%;
+    font-size: 2.8rem;
+  }
+
+  .hero h1 {
+    font-size: 3.6rem;
+  }
+
+  .hero img {
+    max-width: 750px;
+    margin: 0 auto;
+  }
+
+  .hero figcaption {
+    font-size: 1.8rem;
+  }
+
+  /*========
+      ABOUT
+    ========*/
+
+  .about {
+    display: block;
+    columns: 2;
+  }
+
+  .about p {
+    text-align: left;
+    padding-left: 3rem;
+  }
+
+  .about h2 {
+    text-align: center;
+  }
+
+  .about figure {
+    margin: 0 auto;
+    box-shadow: rgba(146, 83, 0, 0.233) -10px 0px 10px -10px;
+  }
+
+  /*=========
+    BENEFITS
+    ========*/
+
+  .card-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+
+  .cards {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+
+  .service-btn {
+    margin-top: 3rem;
+  }
+
+  /*========
+    CALL-TO-ACTION
+    =========*/
+
+  .call-to-action h2 {
+    margin: 0;
+  }
+
+  /*========
+    FOOTER
+    =========*/
+
+  .footer li {
+    padding: 0;
+  }
+  .footer {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 1rem;
+    background-color: #262730;
+    color: #dff8eb;
+  }
+
+  /*=====
+    SERVICES
+    =====*/
+  .rental,
+  .orders,
+  .call-to-action {
+    max-width: 1150px;
+    margin: 1rem auto;
+  }
+
+  .rent-wrap {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-evenly;
+    gap: 2rem;
+    max-width: 1100px;
+  }
+
+  .order-wrap {
+    gap: 2rem;
+    margin: 0 auto;
+    max-width: 1100px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .order-wrap figure {
+    margin: 0;
+    text-align: center;
+  }
+
+  /*=====
+    MENU
+    =====*/
+
+  .menu-hero {
+    margin: 1rem auto;
+    max-width: 1100px;
+  }
+
+  .menu {
+    margin: 0 auto;
+    max-width: 1100px;
+  }
+
+  .menu h3 {
+    font-size: 2.4rem;
+  }
+
+  .item-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-evenly;
+    gap: 0.75rem;
+  }
+
+  .menu-item {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .menu-item h4 {
+    font-size: 1.8rem;
+    align-self: center;
+  }
+}

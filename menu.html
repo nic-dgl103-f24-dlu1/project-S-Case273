@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo:ital,wdth,wght@0,112.5,800;1,112.5,800&family=Mona+Sans:ital,wdth@0,112.5;1,112.5&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo:ital,wdth,wght@0,112.5,800;1,112.5,800&family=Mona+Sans:ital,wdth,wght@0,112.5,200;1,112.5,200&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Menu</title>
+  </head>
+  <body>
+    <header>
+      <a href="index.html">
+        <img
+          class="logo"
+          src="images/brisketlogo.jpg"
+          alt="Big Brisket barbecue's logo"
+        />
+      </a>
+      <ul class="nav-bar">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="services.html">Services</a></li>
+      </ul>
+      <div class="toggle">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+
+      <div class="dropdown" data-visible="false">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="services.html">Services</a></li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <section class="menu-hero">
+        <h2>Experience the best barbecue brisket in the Comox Valley</h2>
+        <figure class="menu-img">
+           <!--Free images from unslpash-->
+          <img
+            src="images/fire-grill.jpg"
+            alt="a close up image of a grill with fire underneath ready for barbecueing"
+          />
+          <img
+            src="images/james-hardman-iSBFFR7N3Mo-unsplash.jpg"
+            alt="a bright image of fire blazing"
+          />
+          <img
+            src="images/israel-albornoz-X_yiZP3NTkE-unsplash.jpg"
+            alt="a close up of fresh tender and juicy brisket"
+          />
+        </figure>
+        <p><b>SATURDAYS 11-4</b></p>
+      </section>
+      <section class="menu">
+        <h2>Our menu</h2>
+        <article class="sliced-brisket menu-box">
+          <h3>Brisket by the slice</h3>
+          <p>Order our brisket served by the ounce.</p>
+          <div class="slice menu-item">
+            <h4>
+              Brisket &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;
+              &emsp; &emsp; &emsp;$1.50
+            </h4>
+            <p>
+              Fresh Brisket is sliced to order and priced by the ounce.
+              Approximately 5-6 slices per pound.
+            </p>
+            <p class="sub-text">
+              If ordering more than 2 pounds please call before Friday at 5pm so
+              we can add more meat to our smoker for you!
+            </p>
+          </div>
+        </article>
+        <article class="handhelds menu-box">
+          <h3>Handhelds</h3>
+          <p>
+            Each handheld comes with your choice of side; Fries, Coleslaw or
+            House Beans
+          </p>
+          <div class="item-wrapper">
+            <div class="sandwich menu-item">
+              <h4>
+                Brsiket sandwich&emsp; &emsp; &emsp; &emsp; &emsp; &emsp;
+                &emsp;$12.50
+              </h4>
+              <p>
+                Chopped Brisket is served on a tasty bun with our house slaw and
+                your choice of side.
+              </p>
+            </div>
+            <div class="s-burger menu-item">
+              <h4>
+                Smash burger single &emsp; &emsp; &emsp; &emsp; &emsp; $9.90
+              </h4>
+              <p>
+                Our own recipe of ground beef & pork with house seasonings,
+                cheese, onion, pickles, tomato & lettuce and your choice of
+                side.
+              </p>
+            </div>
+            <div class="d-burger menu-item">
+              <h4>
+                Smash burger double&emsp; &emsp; &emsp; &emsp; &emsp;$12.50
+              </h4>
+              <p>
+                2 Patties with Cheese, our own recipe of ground beef & pork with
+                house seasonings, cheese, onion, pickles, tomato & lettuce and
+                your choice of side.
+              </p>
+            </div>
+            <div class="hoagie menu-item">
+              <h4>
+                Brisket hoagie&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;
+                &emsp;$15.50
+              </h4>
+              <p>
+                Slighty more Brisket, sliced, served on a Hoagie with cheese,
+                onions & house pickles with your choice of side dish and a side
+                of our house gravy for dipping.
+              </p>
+            </div>
+          </div>
+        </article>
+        <article class="poutine menu-box">
+          <h3>Poutine</h3>
+          <p>Our poutines are served with our 24 hour stock simmered gravy.</p>
+          <div class="item-wrapper">
+            <div class="r-poutine menu-item">
+              <h4>
+                Regular poutine&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;
+                &emsp;$7.50
+              </h4>
+              <p>Fries, curds, and house gravy</p>
+            </div>
+            <div class="b-poutine menu-item">
+              <h4>
+                Brisket poutine &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;
+                &emsp;$9.90
+              </h4>
+              <p>
+                Our poutine is elevated with the addition of our fresh smoked
+                chopped brisket
+              </p>
+            </div>
+          </div>
+        </article>
+        <article class="sides menu-box">
+          <h3>Side dishes</h3>
+          <p>Served with our Handhelds or seperately</p>
+          <div class="item-wrapper">
+            <div class="fry menu-item">
+              <h4>
+                Fries &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;
+                &emsp; &emsp; &emsp; &emsp; $5.50
+              </h4>
+              <p>Crisp and delicious!</p>
+            </div>
+            <div class="beans menu-item">
+              <h4>
+                Baked beans&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;
+                &emsp; &emsp;$3.75
+              </h4>
+              <p>Our house recipe has a bit of a kick.</p>
+            </div>
+            <div class="slaw menu-item">
+              <h4>
+                Cole slaw &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;
+                &emsp; &emsp; &emsp; $3.50
+              </h4>
+              <p>Our slaw is in a vinaigrette.</p>
+            </div>
+          </div>
+        </article>
+        <article class="beverages menu-box">
+          <h3>Beverages</h3>
+          <div class="item-wrapper">
+            <div class="menu-item">
+              <h4>
+                Soft drinks &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;
+                &emsp; &emsp; $2.25
+              </h4>
+            </div>
+            <div class="menu-item">
+              <h4>
+                Chilled bottled water &emsp; &emsp; &emsp; &emsp; &emsp; $2.00
+              </h4>
+            </div>
+          </div>
+        </article>
+        <article class="menu-box">
+          <h3>Frozen brisket packages</h3>
+          <div class="item-wrapper">
+            <div class="menu-item">
+              <h4>
+                Sliced brisket &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;
+                &emsp; $18.90
+              </h4>
+              <p>Vacuum sealed, 1 pound bag of our sliced brisket</p>
+              <br />
+              <p class="sub-text">Subject to availability</p>
+            </div>
+            <div class="menu-item">
+              <h4>
+                Brisket bites&emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;
+                &emsp; &emsp;$5.00
+              </h4>
+              <p>
+                Bite sized brisket vacuum sealed in 1/2 pound bags, ideal for
+                soups, chili's and just snacking!
+              </p>
+              <p class="sub-text">Subject to availability</p>
+            </div>
+          </div>
+        </article>
+      </section>
+      <section class="call-to-action">
+        <h2>Indulge the way you want</h2>
+        <a href="services.html" class="btn">Learn more</a>
+      </section>
+    </main>
+    <footer>
+      <div class="footer">
+        <div>
+          <h3>Contact us</h3>
+          <a
+            href="https://www.instagram.com/bigbrisketbarbecue/"
+            class="fa-brands fa-instagram"
+          ></a>
+          <a
+            href="https://www.x.com/bigBbarbecue"
+            class="fa-brands fa-x-twitter"
+          ></a>
+          <p>801 Dingwall Road, Courtenay, British Columbia V9N 3S4, Canada</p>
+          <a class="phone" href="tel:1-250-714-5999">250-714-5999</a>
+        </div>
+        <div>
+          <h3>Hours</h3>
+          <ul>
+            <li>Monday: Closed</li>
+            <li>Tuesday: Closed</li>
+            <li>Wednesday: Closed</li>
+            <li>Thursday: Closed</li>
+            <li>Firday: Closed</li>
+            <li><strong>Saturday: 11am - 4pm</strong></li>
+            <li>Sunday: Closed</li>
+          </ul>
+        </div>
+        <div>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2580.4556171089494!2d-124.99125099999999!3d49.702223599999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548813ee4db7cc37%3A0xddce0efbba6f9e5!2s801%20Dingwall%20Rd%2C%20Courtenay%2C%20BC%20V9N%203S4!5e0!3m2!1sen!2sca!4v1732391414441!5m2!1sen!2sca"
+            width="400"
+            height="300"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>Copyright © 2024 Big Brisket Barbecue - All Rights Reserved.</p>
+        <p>
+          This is a fictional website that was designed and coded as an
+          educational exercise. It is not intended to be seen outside of the
+          class environment. None of the content and images were approved by the
+          business owner.
+        </p>
+      </div>
+    </footer>
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const dropdownMenu = document.querySelector(".dropdown");
+        const toggleBtn = document.querySelector(".toggle");
+
+        toggleBtn.addEventListener("click", () => {
+          const visibility = dropdownMenu.getAttribute("data-visible");
+
+          if (visibility === "false") {
+            dropdownMenu.setAttribute("data-visible", "true");
+          } else {
+            dropdownMenu.setAttribute("data-visible", "false");
+          }
+        });
+      });
+    </script>
+  </body>
+</html>
